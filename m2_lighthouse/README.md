@@ -3,13 +3,14 @@
 This contains the scripts required to run Lighthouse in the M2 milestone.
 
 It is assumed that users have installed `lighthouse` and `lcli` binaries from
-[`merge-f2f`](https://github.com/sigp/lighthouse/pull/2620) branch of
+[`kintsugi`](https://github.com/sigp/lighthouse/pull/2768) branch of
 Lighthouse.
 
 Instructions:
 
 ```bash
 git clone git@github.com:sigp/lighthouse.git
+git checkout kintsugi
 cd lighthouse
 make
 make install-lcli
